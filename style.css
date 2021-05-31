@@ -1,0 +1,60 @@
+body {
+    background-color: yellowgreen;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+   background-color: black;
+     border-radius: 25px;
+     border: 10px solid black;
+    margin: auto;
+}
+
+.h1 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+.h1 span{
+    color: red;
+}
+
+.tic{
+    height: 400px;
+    width: 425px;
+    margin: auto;
+    background-color: blueviolet;
+    border: 5px solid gray;
+    border-radius: 25px;
+}
+.row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.col {
+    height: 120px;
+    width: 120px;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 25px;
+  
+    font-size: 20px;
+    font-family: 'Arial';
+  
+    text-align: center;
+}
+  
+.turn {
+    width: 100%;
+    text-align: center;
+    font-style: arial;
+}   
